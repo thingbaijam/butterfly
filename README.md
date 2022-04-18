@@ -1,5 +1,6 @@
 # butterfly
-A script to plot Butterfly (aka Tornado) diagrams
+
+A python script to plot Butterfly (aka Tornado) diagrams, using matplotlib.pyplot
 
 pltornado(cases, ...)
 
