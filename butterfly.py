@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 """
-pltornado(cases, ...)
+butterfly.plot(cases, ...)
 
 plots a tornado diagram for the input - cases which is dictionary of the format:
 
