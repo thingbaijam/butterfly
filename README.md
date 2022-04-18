@@ -2,9 +2,7 @@
 
 A python script to plot Butterfly (aka Tornado) diagrams, using matplotlib.pyplot
 
-butterfly.plot(cases, ...)
-
-plots a tornado diagram for the input - cases which is dictionary of the format:
+butterfly.plot(cases, ...) plots a tornado diagram for the input - cases which is dictionary of the format:
 
 ```
 cases = {
