@@ -8,11 +8,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 """
-butterfly.plot(cases, ...)
+butterfly.plot(cases, ...) plots a tornado diagram for the input - cases which is dictionary of the format:
 
-plots a tornado diagram for the input - cases which is dictionary of the format:
-
-```
 cases = {
  '<parameter1>': {'inputs': [<..,>],
               'results':[<..,>],
@@ -20,32 +17,20 @@ cases = {
              },
   ....
 }
-```
 
 An wrapper can be easiy implemented when the data is in either json or toml format.
-
 Other key arguments are as follows.
-
 - plot_orient: The orientation of the plot which can equal to 'horizontal' (default) or 'vertical'
-
 - barwidth: The width of the bars. The defualt value is 0.8.
-
 - xlim: The range defining the bounds of the x-axis. The default is [-50, 50].
-
 - xypad: The padding for bar annotations. The defualt is (1.0, 0.1),
-
 - sort_spread: The sorting of the bar plots based on the spread of the results 
                across the base result. This can set either as None, 'ascend' or 'descend'. 
                The default is None.
 - title: The title of the plot.
-
 - ylabel: The label on the y-axis
-
 - xlabel: The label on the x-axis
-
 - ax: A singe axes for plotting. If it is equal to None (default), a single axes is created. 
-
-
 """
 
 
