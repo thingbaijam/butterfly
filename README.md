@@ -2,7 +2,7 @@
 
 A python script to plot Butterfly (aka Tornado) diagrams, using matplotlib.pyplot
 
-butterfly.plot(cases, ...) plots a tornado diagram for the input - cases which is dictionary of the format:
+butterfly.plot(cases, ...) plots a tornado diagram for the input "cases" which is dictionary of the format:
 
 ```
 cases = {
@@ -14,7 +14,7 @@ cases = {
 }
 ```
 
-An wrapper can be easiy implemented when the data is in either json or toml format.
+An wrapper can be easiy implemented when the "cases" is in either json or toml format.
 Other key arguments are as follows.
 - plot_orient: The orientation of the plot which can equal to 'horizontal' (default) or 'vertical'
 - barwidth: The width of the bars. The default value is 0.8.
